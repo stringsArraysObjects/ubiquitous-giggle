@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 import static java.util.Arrays.stream;
 
 class Kata {
