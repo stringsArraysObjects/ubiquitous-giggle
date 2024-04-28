@@ -19,3 +19,11 @@ class Arge {
   return years;
   }
 }
+
+class Arge {
+    
+    public static int nbYear(int p0, double percent, int aug, int p) {
+        if (p0>=p) return 0;
+        else return nbYear((int) (p0+aug+p0*(percent/100)), percent, aug, p) + 1;
+    }
+}
